@@ -95,6 +95,22 @@
                 placeholder="Please be as thorough as you need"></textarea>
         </p>
         <button>Submit</button>
+
+        <h2>Validations Demo</h2>
+        <form action="/dummy">
+            <label for="first">Enter First Name</label>
+            <input type="text" name="first" id="first" reqired>
+            <p>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" minlength="5" maxlength="20">
+                <button>Submit</button>
+            </p>
+
+            <p>
+                <input type="email" required>
+                <input type="url" required>
+            </p>
+        </form>
     </form>
 </body>
 
